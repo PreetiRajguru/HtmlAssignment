@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Header with Dropdown Menu</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Thin blue header */
+        .header {
+            background-color: #007bff;
+            height: 50px;
+            line-height: 50px;
+            color: #fff;
+            padding: 0 10px;
+        }
+
+        /* Three lines icon */
+        .icon {
+            float: left;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        /* Image */
+        .logo {
+            height: 50px;
+            /* margin-top: 5px;
+            margin-right: 10px; */
+        }
+
+        .logo1 {
+            height: 40px;
+
+        }
+
+        /* Dropdown menu */
+        .dropdown-menu {
+            margin-top: 15px;
+            right: 0;
+            left: auto;
+            position: absolute;
+            top: 50px;
+        }
+
+        /* Gray content area */
+        .content {
+            background-color: #f2f2f2;
+            height: 40px;
+            line-height: 50px;
+            padding: 0 10px;
+        }
+
+        /* Dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Dropdown content */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            z-index: 1;
+        }
+
+        /* Show dropdown content on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .btn-secondary {
+            color: #fff;
+            background-color: #4e4e4e;
+            border-color: #4e4e4e;
+        }
+
+        .btn-secondary:hover {
+            background-color: #333333;
+            border-color: #333333;
+        }
+
+        button {
+            margin-top: 10px;
+            margin-left: 10px;
+            width: 6%;
+        }
+
+        .btnb-secondaryb {
+            color: #fff;
+            background-color: #5a8bfe;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="icon">&#9776;</div>
+        <div class="dropdown pull-right">
+            <img src="doc.png" alt="Logo" class="logo" class="img-fluid">
+            Supplier Test1 1<span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="content">
+        <a href="www.example.com">Home</a>
+        <img src="imgs.png" class="img-fluid" alt="Logo" class="logo1" style="position: absolute; top: 60; right: 0;">
+    </div>
+
+    <button class="btn btn-secondary">Draft</button>
+    <button class="btn btnb-secondaryb">Open</button>
+    <button class="btn btn-secondary">Closed</button>
+    <button class="btn btn-secondary">All</button>
+    <div style="float: right;">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#"><</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">></a></li>
+            &nbsp;
+            <li class="page-item active"><a class="page-link" href="#">50</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script>
+        // Toggle dropdown menu when icon is clicked
+        document.querySelector('.icon').addEventListener('click', function () {
+            document.querySelector('.dropdown-menu').classList.toggle('show');
+        });
+        // Close dropdown menu when logo is clicked
+        document.querySelector('.logo').addEventListener('click', function () {
+            document.querySelector('.dropdown-menu').classList.remove('show');
+        });
+    </script>
+</body>
+
+</html>
