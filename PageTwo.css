@@ -136,6 +136,85 @@ button {
     float: left;
     padding: 0px 20px;
 }
-.home{
+
+.home {
     color: hsl(208.24deg 7.3% 45.69%);
+}
+
+.content-image {
+    position: absolute;
+    top: 60;
+    right: 0;
+    height: 50px;
+}
+
+.menu-buttons {
+    height: 40px;
+    width: 110px;
+    margin-left: 20px;
+    background-color: hsl(208.24deg 7.3% 45.69%);
+}
+
+.active-menu-button {
+    height: 40px;
+    width: 110px;
+    margin-left: 20px;
+    background-color: hsl(202.23deg 100% 49.22%);
+}
+
+.custom-pagination {
+    background-color: hsl(202.23deg 100% 49.22%) !important;
+}
+
+.upper-div {
+    padding-top: 30px;
+}
+
+.lower-div {
+    padding-top: 10px;
+}
+
+.supplier-card-header p {
+    color: hsl(205.15deg 98.82% 33.14%)
+}
+
+.card-body {
+    margin-top: 5px;
+}
+
+.grey-color {
+    color: grey;
+}
+
+.card-names {
+    color: rgb(47, 82, 179);
+}
+
+.progress-color {
+    color: hsl(205.15deg 98.82% 33.14%);
+}
+
+.progress-view {
+    width: 100%;
+    background-color: hsl(202.15deg 88.17% 33.14%);
+}
+
+.green-font {
+    color: rgb(105, 237, 100);
+    font-size: 30px;
+}
+
+.grey-font {
+    color: gray;
+    font-size: 30px;
+}
+
+.red-font {
+    color: rgb(241, 86, 69);
+    font-size: 30px;
+}
+
+.view-button {
+    border-radius: 19px;
+    background-color: hsl(202.23deg 100% 49.22%);
 }

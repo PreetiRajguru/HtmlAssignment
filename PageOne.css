@@ -59,9 +59,10 @@ a:focus {
 #sidebar {
     /* min-width: 250px;
     max-width: 250px; */
-    background: #263fa2;
+    background: hsl(244deg 43.69% 40.39%);
     color: #fff;
     transition: all 0.3s;
+    width : 200px;
 }
 
 #sidebar.active {
