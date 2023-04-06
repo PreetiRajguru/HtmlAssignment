@@ -25,411 +25,712 @@
         </div>
     </header>
     <div class="content">
-        <a href="www.example.com">Home</a>
+        <a href="#">Home</a>
         <img src="imgs.png" class="img-fluid" alt="Logo" class="logo1" style="position: absolute; top: 60; right: 0;">
     </div>
-   
-        <button class="btn btn-secondary" style=" width: 6%;">Draft</button>
-        <button class="btn btnb-secondaryb" style=" width: 6%;">Open</button>
-        <button class="btn btn-secondary" style=" width: 6%;">Closed</button>
-        <button class="btn btn-secondary" style=" width: 6%;">All</button>
-    
-    <div style="float: right;">
-        <ul class="pagination">
-            <li class="page-item"><a class="page-link" href="#">
-                    < </a>
-            </li>
-            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">4</a></li>
-            <li class="page-item"><a class="page-link" href="#">></a></li>
-            &nbsp;
-            <li class="page-item active"><a class="page-link" href="#">50</a></li>
-        </ul>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="options">
+                    <button class="btn btn-secondary"
+                        style=" height: 40px; width: 110px; background-color: hsl(208.24deg 7.3% 45.69%);">Draft</button>
+                    <button class="btn btn-primary"
+                        style=" height: 40px; width: 110px; margin-left: 20px; background-color: hsl(202.23deg 100% 49.22%);">Open</button>
+                    <button class="btn btn-secondary"
+                        style=" height: 40px; width: 110px; margin-left: 20px; background-color: hsl(208.24deg 7.3% 45.69%);">Closed</button>
+                    <button class="btn btn-secondary"
+                        style=" height: 40px; width: 110px; margin-left: 20px; background-color: hsl(208.24deg 7.3% 45.69%);">All</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="pull-right">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">
+                                < </a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#"
+                                style="background-color: hsl(202.23deg 100% 49.22%);">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">></a></li>
+                        &nbsp;
+                        <li class="page-item active"><a class="page-link" href="#"
+                                style="background-color: hsl(202.23deg 100% 49.22%);">50</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="row" style="padding-top: 30px;">
 
-        <div class="col-md-3">
+        <div class="col-md-4 col-sm-6 col-lg-3">
             <div class="card">
                 <div class="card-body">
-                    <div>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="bi bi-briefcase-fill"></i>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="bi bi-share-fill"></i>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="bi bi-calendar2-minus"></i>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <i class="bi bi-briefcase-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">CLASS II</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-share-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">REMOVAL</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-calendar2-minus"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">0</p>
+                        </div>
                     </div>
-                    <p style="color: rgb(131, 131, 249)">CLASS II
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; REMOVAL
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</p>
 
-                    <small style="color: grey;">RECALL ID</small>
-                    <small style="color: rgb(47, 82, 179);"><b>Tues-test-4</b></small>
-
+                    <div style="margin-top: 5px;">
+                        <small style="color: grey;"><b>RECALL ID</b></small>
+                        <small style="color: rgb(47, 82, 179);"><b>Tues-test-4</b></small>
+                    </div>
                     <div class="content1">
                         <p style="color: rgb(47, 82, 179); font-size: medium;">Tues - test - 4</p>
                     </div>
 
                     <small style="color: grey;"><b>PROGRESS INDICATOR</b></small>
 
-                    <div style="margin-top: 20px; margin-left: 120px;">
-                        <p style="color: gray;font-size:25px;">100%</p>
+                    <div class="text-center" style="margin-top: 20px;">
+                        <p style="color: hsl(205.15deg 98.82% 33.14%);font-size:25px;">100%</p>
                     </div>
-
+                   
                     <div class="container-fluid">
                         <div class="progress" style="height: 10px;">
-                            <div style="width: 100%;" class="progress-bar"></div>
+                            <div style="width: 100%; background-color:hsl(202.15deg 88.17% 33.14%)"
+                                class="progress-bar"></div>
                         </div>
                     </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">NOT
-                                ACKNOWLEDGED</small></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">ACKNOWLEDGED</small></div>
-                    </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: rgb(105, 237, 100); font-size:30px;">0 &nbsp;&nbsp;&nbsp;&nbsp;
-                            </p>
+                    <div class="row text-center">
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>NOT ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: rgb(105, 237, 100); font-size:30px;">0</p>
                         </div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: gray;font-size:30px;">1
-                            </p>
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">1</p>
                         </div>
                     </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">COMPLETED</small></div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">IN PROGRESS</small></div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">TOTAL</small></div>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>COMPLETED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">1</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>IN PROGRESS</b></small>
+                            <br>
+                            <p style="color: rgb(105, 237, 100); font-size:30px;">0</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small
+                                style="color: grey;"><b>TOTAL</b></small>
+                                <br>
+                                <p style="color: gray;font-size:30px;">1</p>
+                        </div>
                     </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: gray;font-size:30px;">1
-                            </p>
-                        </div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: rgb(105, 237, 100); font-size:30px;">0 &nbsp;&nbsp;&nbsp;&nbsp;
-                            </p>
-                        </div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: gray;font-size:30px;">1
-                            </p>
-                        </div>
-                    </div>
                     <div class="text-right">
-                        <button class="btn btn-primary" style="border-radius: 13px;">View</button>
+                        <button class="btn btn-primary"
+                            style="border-radius: 19px;  background-color: hsl(202.23deg 100% 49.22%);">View</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4 col-sm-6 col-lg-3">
             <div class="card">
                 <div class="card-body">
-                    <div>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="bi bi-briefcase-fill"></i>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="bi bi-share-fill"></i>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="bi bi-calendar2-minus"></i>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <i class="bi bi-briefcase-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">CLASS II</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-share-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">REMOVAL</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-calendar2-minus"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">0</p>
+                        </div>
                     </div>
-                    <p style="color: rgb(131, 131, 249)">CLASS III
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CORRECTION
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        0</p>
 
-                    <small style="color: grey;">RECALL ID</small>
-                    <small style="color: rgb(47, 82, 179);"><b>Tues-third-1</b></small>
-
+                    <div style="margin-top: 5px;">
+                        <small style="color: grey;"><b>RECALL ID</b></small>
+                        <small style="color: rgb(47, 82, 179);"><b>Tues-test-4</b></small>
+                    </div>
                     <div class="content1">
-                        <p style="color: rgb(47, 82, 179); font-size: medium;">Tues - third</p>
+                        <p style="color: rgb(47, 82, 179); font-size: medium;">Tues - test - 4</p>
                     </div>
 
                     <small style="color: grey;"><b>PROGRESS INDICATOR</b></small>
-                    
-                    <div style="margin-top: 20px; margin-left: 120px;">
-                        <p style="color: gray;font-size:25px;">100%</p>
-                    </div>
 
+                    <div class="text-center" style="margin-top: 20px;">
+                        <p style="color: hsl(205.15deg 98.82% 33.14%);font-size:25px;">100%</p>
+                    </div>
+                   
                     <div class="container-fluid">
                         <div class="progress" style="height: 10px;">
-                            <div style="width: 100%;" class="progress-bar"></div>
+                            <div style="width: 100%; background-color:hsl(202.15deg 88.17% 33.14%)"
+                                class="progress-bar"></div>
                         </div>
                     </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">NOT
-                                ACKNOWLEDGED</small></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">ACKNOWLEDGED</small></div>
-                    </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: rgb(105, 237, 100); font-size:30px;">0 &nbsp;&nbsp;&nbsp;&nbsp;
-                            </p>
+                    <div class="row text-center">
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>NOT ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: rgb(105, 237, 100); font-size:30px;">0</p>
                         </div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: gray;font-size:30px;">2
-                            </p>
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">2</p>
                         </div>
                     </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">COMPLETED</small></div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">IN PROGRESS</small></div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">TOTAL</small></div>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>COMPLETED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">2</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>IN PROGRESS</b></small>
+                            <br>
+                            <p style="color: rgb(105, 237, 100); font-size:30px;">0</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small
+                                style="color: grey;"><b>TOTAL</b></small>
+                                <br>
+                                <p style="color: gray;font-size:30px;">2</p>
+                        </div>
                     </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: gray;font-size:30px;">2
-                            </p>
-                        </div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: rgb(105, 237, 100); font-size:30px;">0 &nbsp;&nbsp;&nbsp;&nbsp;
-                            </p>
-                        </div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: gray;font-size:30px;">2
-                            </p>
-                        </div>
-                    </div>
                     <div class="text-right">
-                        <button class="btn btn-primary" style="border-radius: 13px;">View</button>
+                        <button class="btn btn-primary"
+                            style="border-radius: 19px;  background-color: hsl(202.23deg 100% 49.22%);">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <i class="bi bi-briefcase-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">CLASS II</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-share-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">REMOVAL</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-calendar2-minus"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">0</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 5px;">
+                        <small style="color: grey;"><b>RECALL ID</b></small>
+                        <small style="color: rgb(47, 82, 179);"><b>Tues-test-4</b></small>
+                    </div>
+                    <div class="content1">
+                        <p style="color: rgb(47, 82, 179); font-size: medium;">Tues - test - 4</p>
+                    </div>
+
+                    <small style="color: grey;"><b>PROGRESS INDICATOR</b></small>
+
+                    <div class="text-center" style="margin-top: 20px;">
+                        <p style="color: hsl(205.15deg 98.82% 33.14%);font-size:25px;">100%</p>
+                    </div>
+                   
+                    <div class="container-fluid">
+                        <div class="progress" style="height: 10px;">
+                            <div style="width: 100%; background-color:hsl(202.15deg 88.17% 33.14%)"
+                                class="progress-bar"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="row text-center">
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>NOT ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: rgb(241, 86, 69); font-size:30px;">3</p>
+                        </div>
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">1</p>
+                        </div>
+                    </div>
+
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>COMPLETED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">1</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>IN PROGRESS</b></small>
+                            <br>
+                            <p style="color: rgb(241, 86, 69); font-size:30px;">3</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small
+                                style="color: grey;"><b>TOTAL</b></small>
+                                <br>
+                                <p style="color: gray;font-size:30px;">1</p>
+                        </div>
+                    </div>
+
+                    <div class="text-right">
+                        <button class="btn btn-primary"
+                            style="border-radius: 19px;  background-color: hsl(202.23deg 100% 49.22%);">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <i class="bi bi-briefcase-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">CLASS II</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-share-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">REMOVAL</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-calendar2-minus"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">0</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 5px;">
+                        <small style="color: grey;"><b>RECALL ID</b></small>
+                        <small style="color: rgb(47, 82, 179);"><b>Tues-test-4</b></small>
+                    </div>
+                    <div class="content1">
+                        <p style="color: rgb(47, 82, 179); font-size: medium;">Tues - test - 4</p>
+                    </div>
+
+                    <small style="color: grey;"><b>PROGRESS INDICATOR</b></small>
+
+                    <div class="text-center" style="margin-top: 20px;">
+                        <p style="color: hsl(205.15deg 98.82% 33.14%);font-size:25px;">100%</p>
+                    </div>
+                   
+                    <div class="container-fluid">
+                        <div class="progress" style="height: 10px;">
+                            <div style="width: 100%; background-color:hsl(202.15deg 88.17% 33.14%)"
+                                class="progress-bar"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="row text-center">
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>NOT ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: rgb(105, 237, 100); font-size:30px;">0</p>
+                        </div>
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">1</p>
+                        </div>
+                    </div>
+
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>COMPLETED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">1</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>IN PROGRESS</b></small>
+                            <br>
+                            <p style="color: rgb(105, 237, 100); font-size:30px;">0</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small
+                                style="color: grey;">TOTAL</small>
+                                <br>
+                                <p style="color: gray;font-size:30px;">1</p>
+                        </div>
+                    </div>
+
+                    <div class="text-right">
+                        <button class="btn btn-primary"
+                            style="border-radius: 19px;  background-color: hsl(202.23deg 100% 49.22%);">View</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-3">
+    </div>
+
+
+    <div class="row" style="padding-top: 10px;">
+
+   
+        <div class="col-md-4 col-sm-6 col-lg-3">
             <div class="card">
                 <div class="card-body">
-                    <div>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="bi bi-briefcase-fill"></i>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="bi bi-share-fill"></i>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="bi bi-calendar2-minus"></i>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <i class="bi bi-briefcase-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">CLASS II</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-share-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">REMOVAL</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-calendar2-minus"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">0</p>
+                        </div>
                     </div>
-                    <p style="color: rgb(131, 131, 249)">CLASS II
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; REMOVAL
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</p>
 
-                    <small style="color: grey;">RECALL ID</small>
-                    <small style="color: rgb(47, 82, 179);"><b>Tues-2</b></small>
-
+                    <div style="margin-top: 5px;">
+                        <small style="color: grey;"><b>RECALL ID</b></small>
+                        <small style="color: rgb(47, 82, 179);"><b>Tues-test-4</b></small>
+                    </div>
                     <div class="content1">
-                        <p style="color: rgb(47, 82, 179); font-size: medium;">Tues -2</p>
+                        <p style="color: rgb(47, 82, 179); font-size: medium;">Tues - test - 4</p>
                     </div>
 
                     <small style="color: grey;"><b>PROGRESS INDICATOR</b></small>
-                    
-                    <div style="margin-top: 20px; margin-left: 120px;">
-                        <p style="color: gray;font-size:25px;">0%</p>
-                    </div>
 
+                    <div class="text-center" style="margin-top: 20px;">
+                        <p style="color: hsl(205.15deg 98.82% 33.14%);font-size:25px;">100%</p>
+                    </div>
+                   
                     <div class="container-fluid">
                         <div class="progress" style="height: 10px;">
-                            <div style="width: 0%;" class="progress-bar"></div>
+                            <div style="width: 100%; background-color:hsl(202.15deg 88.17% 33.14%)"
+                                class="progress-bar"></div>
                         </div>
                     </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">NOT
-                                ACKNOWLEDGED</small></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">ACKNOWLEDGED</small></div>
-                    </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: rgb(248, 98, 93); font-size:30px;">3 &nbsp;&nbsp;&nbsp;&nbsp;
-                            </p>
+                    <div class="row text-center">
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>NOT ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: rgb(105, 237, 100); font-size:30px;">0</p>
                         </div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: gray;font-size:30px;">1
-                            </p>
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">1</p>
                         </div>
                     </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">COMPLETED</small></div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">IN PROGRESS</small></div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">TOTAL</small></div>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>COMPLETED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">1</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>IN PROGRESS</b></small>
+                            <br>
+                            <p style="color: rgb(105, 237, 100); font-size:30px;">0</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small
+                                style="color: grey;"><b>TOTAL</b></small>
+                                <br>
+                                <p style="color: gray;font-size:30px;">1</p>
+                        </div>
                     </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: gray;font-size:30px;">1
-                            </p>
-                        </div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color:  rgb(248, 98, 93); font-size:30px;">3 &nbsp;&nbsp;&nbsp;&nbsp;
-                            </p>
-                        </div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: gray;font-size:30px;">3
-                            </p>
-                        </div>
-                    </div>
                     <div class="text-right">
-                        <button class="btn btn-primary" style="border-radius: 13px;">View</button>
+                        <button class="btn btn-primary"
+                            style="border-radius: 19px;  background-color: hsl(202.23deg 100% 49.22%);">View</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4 col-sm-6 col-lg-3">
             <div class="card">
                 <div class="card-body">
-                    <div>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="bi bi-briefcase-fill"></i>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="bi bi-share-fill"></i>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="bi bi-calendar2-minus"></i>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <i class="bi bi-briefcase-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">CLASS II</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-share-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">REMOVAL</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-calendar2-minus"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">0</p>
+                        </div>
                     </div>
-                    <p style="color: rgb(131, 131, 249)">CLASS II
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; REMOVAL
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 46</p>
 
-                    <small style="color: grey;">RECALL ID</small>
-                    <small style="color: rgb(47, 82, 179);"><b>0422</b></small>
-
+                    <div style="margin-top: 5px;">
+                        <small style="color: grey;"><b>RECALL ID</b></small>
+                        <small style="color: rgb(47, 82, 179);"><b>Tues-test-4</b></small>
+                    </div>
                     <div class="content1">
-                        <p style="color: rgb(47, 82, 179); font-size: medium;">0422</p>
+                        <p style="color: rgb(47, 82, 179); font-size: medium;">Tues - test - 4</p>
                     </div>
 
                     <small style="color: grey;"><b>PROGRESS INDICATOR</b></small>
-                    
-                    <div style="margin-top: 20px; margin-left: 120px;">
-                        <p style="color: gray;font-size:25px;">100%</p>
-                    </div>
 
+                    <div class="text-center" style="margin-top: 20px;">
+                        <p style="color: hsl(205.15deg 98.82% 33.14%);font-size:25px;">100%</p>
+                    </div>
+                   
                     <div class="container-fluid">
                         <div class="progress" style="height: 10px;">
-                            <div style="width: 100%;" class="progress-bar"></div>
+                            <div style="width: 100%; background-color:hsl(202.15deg 88.17% 33.14%)"
+                                class="progress-bar"></div>
                         </div>
                     </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">NOT
-                                ACKNOWLEDGED</small></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">ACKNOWLEDGED</small></div>
-                    </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color:  rgb(248, 98, 93); font-size:30px;">0 &nbsp;&nbsp;&nbsp;&nbsp;
-                            </p>
+                    <div class="row text-center">
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>NOT ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: rgb(105, 237, 100); font-size:30px;">0</p>
                         </div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: gray;font-size:30px;">1
-                            </p>
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">2</p>
                         </div>
                     </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">COMPLETED</small></div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">IN PROGRESS</small></div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;"><small
-                                style="color: grey;">TOTAL</small></div>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>COMPLETED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">2</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>IN PROGRESS</b></small>
+                            <br>
+                            <p style="color: rgb(105, 237, 100); font-size:30px;">0</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small
+                                style="color: grey;"><b>TOTAL</b></small>
+                                <br>
+                                <p style="color: gray;font-size:30px;">2</p>
+                        </div>
                     </div>
 
-                    <div class='parent'>
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: gray;font-size:30px;">1
-                            </p>
-                        </div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: rgb(248, 98, 93); font-size:30px;">0 &nbsp;&nbsp;&nbsp;&nbsp;
-                            </p>
-                        </div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class='child inline-block-child' style="display: inline-block;">
-                            <p style="color: gray;font-size:30px;">1
-                            </p>
-                        </div>
-                    </div>
                     <div class="text-right">
-                        <button class="btn btn-primary" style="border-radius: 13px;">View</button>
+                        <button class="btn btn-primary"
+                            style="border-radius: 19px;  background-color: hsl(202.23deg 100% 49.22%);">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <i class="bi bi-briefcase-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">CLASS II</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-share-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">REMOVAL</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-calendar2-minus"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">0</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 5px;">
+                        <small style="color: grey;"><b>RECALL ID</b></small>
+                        <small style="color: rgb(47, 82, 179);"><b>Tues-test-4</b></small>
+                    </div>
+                    <div class="content1">
+                        <p style="color: rgb(47, 82, 179); font-size: medium;">Tues - test - 4</p>
+                    </div>
+
+                    <small style="color: grey;"><b>PROGRESS INDICATOR</b></small>
+
+                    <div class="text-center" style="margin-top: 20px;">
+                        <p style="color: hsl(205.15deg 98.82% 33.14%);font-size:25px;">100%</p>
+                    </div>
+                   
+                    <div class="container-fluid">
+                        <div class="progress" style="height: 10px;">
+                            <div style="width: 100%; background-color:hsl(202.15deg 88.17% 33.14%)"
+                                class="progress-bar"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="row text-center">
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>NOT ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: rgb(241, 86, 69); font-size:30px;">3</p>
+                        </div>
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">1</p>
+                        </div>
+                    </div>
+
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>COMPLETED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">1</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>IN PROGRESS</b></small>
+                            <br>
+                            <p style="color: rgb(241, 86, 69); font-size:30px;">3</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small
+                                style="color: grey;"><b>TOTAL</b></small>
+                                <br>
+                                <p style="color: gray;font-size:30px;">1</p>
+                        </div>
+                    </div>
+
+                    <div class="text-right">
+                        <button class="btn btn-primary"
+                            style="border-radius: 19px;  background-color: hsl(202.23deg 100% 49.22%);">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <i class="bi bi-briefcase-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">CLASS II</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-share-fill"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">REMOVAL</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-calendar2-minus"></i>
+                            <br>
+                            <p style="color: hsl(205.15deg 98.82% 33.14%)">0</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 5px;">
+                        <small style="color: grey;"><b>RECALL ID</b></small>
+                        <small style="color: rgb(47, 82, 179);"><b>Tues-test-4</b></small>
+                    </div>
+                    <div class="content1">
+                        <p style="color: rgb(47, 82, 179); font-size: medium;">Tues - test - 4</p>
+                    </div>
+
+                    <small style="color: grey;"><b>PROGRESS INDICATOR</b></small>
+
+                    <div class="text-center" style="margin-top: 20px;">
+                        <p style="color: hsl(205.15deg 98.82% 33.14%);font-size:25px;">100%</p>
+                    </div>
+                   
+                    <div class="container-fluid">
+                        <div class="progress" style="height: 10px;">
+                            <div style="width: 100%; background-color:hsl(202.15deg 88.17% 33.14%)"
+                                class="progress-bar"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="row text-center">
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>NOT ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: rgb(105, 237, 100); font-size:30px;">0</p>
+                        </div>
+                        <div class="col-md-6">
+                            <small style="color: grey;"><b>ACKNOWLEDGED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">1</p>
+                        </div>
+                    </div>
+
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>COMPLETED</b></small>
+                            <br>
+                            <p style="color: gray;font-size:30px;">1</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small style="color: grey;"><b>IN PROGRESS</b></small>
+                            <br>
+                            <p style="color: rgb(105, 237, 100); font-size:30px;">0</p>
+                        </div>
+                        <div class="col-md-4">
+                            <small
+                                style="color: grey;">TOTAL</small>
+                                <br>
+                                <p style="color: gray;font-size:30px;">1</p>
+                        </div>
+                    </div>
+
+                    <div class="text-right">
+                        <button class="btn btn-primary"
+                            style="border-radius: 19px;  background-color: hsl(202.23deg 100% 49.22%);">View</button>
                     </div>
                 </div>
             </div>

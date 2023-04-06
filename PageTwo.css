@@ -1,12 +1,14 @@
 /* Thin blue header */
 .header {
-    background-color: #007bff;
+    background-color:hsl(202.23deg 100% 49.22%);;
     height: 50px;
     line-height: 50px;
     color: #fff;
     padding: 0 10px;
 }
-
+.options{
+    padding-top: 17px;
+}
 /* Three lines icon */
 .icon {
     float: left;
@@ -36,14 +38,14 @@
 
 /* Gray content area */
 .content {
-    background-color: #f2f2f2;
+    background-color: hsl(210deg 15.79% 92.55%);
     height: 40px;
     line-height: 50px;
     padding: 0 10px;
 }
 
 .content1 {
-    background-color: #f2f2f2;
+    background-color: hsl(210deg 15.79% 92.55%);
     height: 90px;
     line-height: 50px;
     padding: 0 10px;
@@ -70,7 +72,6 @@
 .btn-secondary {
     color: #fff;
     background-color: #4e4e4e;
-    border-color: #4e4e4e;
 }
 
 .btn-secondary:hover {
@@ -79,10 +80,16 @@
 }
 
 button {
-    margin-top: 10px;
-    margin-left: 10px;
+    /* margin-top: 10px;
+    margin-left: 10px; */
+    /* height: 40px;
+    width: 80px; */
+    border-color: #ffffff00 !important;
 }
-
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+}
 .btnb-secondaryb {
     color: #fff;
     background-color: #5a8bfe;
@@ -127,3 +134,13 @@ button {
 .container {
     margin-top: 50px;
 }
+.center {
+    border: 5px solid;
+    text-align: center;
+  }
+  .side-by-side 
+    { 
+      float:left; 
+      padding:0px 20px; 
+    }
+    
