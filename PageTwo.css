@@ -8,6 +8,7 @@
 }
 .options{
     padding-top: 17px;
+    position:absolute;
 }
 /* Three lines icon */
 .icon {
@@ -39,7 +40,7 @@
 /* Gray content area */
 .content {
     background-color: hsl(210deg 15.79% 92.55%);
-    height: 40px;
+    height: 50px;
     line-height: 50px;
     padding: 0 10px;
 }
