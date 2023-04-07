@@ -7,57 +7,34 @@
     <title>Bootstrap Assignment</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
         integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
-
     <link rel="stylesheet" href="PageOne.css">
 </head>
 
 <body id="body-pd">
     <div class="wrapper">
-        <!-- Sidebar  -->
+
         <nav id="sidebar">
             <div class="sidebar-header">
                 <a class="navbar-brand" href="#">
-                    <img src="lexicon.png" height="60" width="200px" alt="MDB Logo" loading="lazy" />
+                    <img src="lexicon.png" height="70" width="200px" alt="MDB Logo" loading="lazy" />
                 </a>
             </div>
 
-
             <ul class="list-unstyled components">
-                <p><i class="bi bi-person-workspace"></i>&nbsp;&nbsp;&nbsp;Admin Settings</p><hr style="margin-top: 0px;">
+                <p><i class="bi bi-person-workspace"></i>&nbsp;&nbsp;&nbsp;Admin Settings</p>
+                <hr style="margin-top: 0px;">
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="bi bi-house"></i>&nbsp;&nbsp;Home</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="#">Home 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
-                        </li>
-                    </ul>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+                            class="bi bi-house"></i>&nbsp;&nbsp;Home</a>
                 </li>
                 <li>
                     <a href="#"><i class="bi bi-info-circle-fill"></i>&nbsp;&nbsp;About</a>
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
-                        class="dropdown-toggle"><i class="bi bi-file-earmark"></i>&nbsp;&nbsp;Pages</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="#">Page 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 3</a>
-                        </li>
-                    </ul>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+                            class="bi bi-file-earmark"></i>&nbsp;&nbsp;Pages</a>
                 </li>
                 <li>
                     <a href="#"><i class="bi bi-file-earmark-person"></i>&nbsp;&nbsp;Portfolio</a>
@@ -69,87 +46,60 @@
 
             <ul class="list-unstyled CTAs">
                 <li>
-                    <p>Powered By</p>
-                    <strong style="margin-left: 20px; margin-top: 0px;">LEXICON</strong>
+                    <p style="padding-top: 40px; padding-bottom: 0px; height: 45px; font-size:15px; margin-left: 23px;">
+                        Powered By</p>
+                    <p style=" margin-top: 0px; margin-left: 6px; font-size:30px;"><b>LEXICON</b></p>
                 </li>
             </ul>
         </nav>
 
-        <!-- Page Content  -->
         <div id="content">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <!-- <button class="btn btn-secondary semi-round-btn" style="border-radius: 50px 0 0 50px;">All</button>
-                    <div class="input-group semi-round-search">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <div class="input-group-append" style="border-radius: 0 50px 50px 0;">
-                          <button class="btn btn-secondary semi-round-btn" type="button">Search</button>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-outline-secondary dropdown-toggle" type="button">All</button>
+                                <input type="text" />
+                                <button class="btn btn-outline-secondary" type="button">Search</button>
+                            </div>
                         </div>
-                      </div> -->
-                      
-
-                    <!-- <div class="btn-group">
-                        <button class="btn btn-secondary btn-sm dropdown-toggle" class="rounded-pill" type="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Small button
-                        </button>
-                    </div> -->
-                    <!-- <button type="button" id="sidebarCollapse" class="btn btn-info">
-                        <i class="fas fa-align-left"></i>
-                        <span>Toggle Sidebar</span>
-                    </button>
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
-                    </button> -->
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li>
-                                <form class="d-flex" role="search">
-                                    <input class="form-control me-2" type="search" placeholder="Search"
-                                        aria-label="Search">
-                                    <button class="btn btn-outline-success" type="submit">Search</button>
-                                </form>
-                            </li>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                            <li>
-                                <!-- bell icon  -->
-                                <!-- <span><i class="fa fa-car" style="font-size:30px;"></i></span> -->
-                                <!-- <span><i class="fa-thin fa-bell" style="font-size:30px;"></i></span> -->
-                                <!-- <img src="bell.png" alt="mdo" width="30" height="30"> -->
-                                <i class="bi bi-bell-fill"></i>
-                            </li>
-
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                            <li class="nav-item">
-                                <div class="flex-shrink-0 dropdown">
-                                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle"
-                                        id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <img src="profile.png" alt="mdo" width="55" height="55" class="rounded-circle">
-                                    </a>
-                                    <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
-                                        <li><a class="dropdown-item" href="#">New project...</a></li>
-                                        <li><a class="dropdown-item" href="#">Settings</a></li>
-                                        <li><a class="dropdown-item" href="#">Profile</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Sign out</a></li>
-                                    </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="pull-right" style="padding-right: 0px;">
+                            <button type="button" class="btn btn-primary"
+                                style="background-color: hsl(240, 5%, 88%); color:black; border-color: #e8e4e400;">
+                                <i class="bi bi-clock"></i> Log Time
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="pull-right" style="padding-right: 0px;">
+                            <i class="bi bi-bell-fill"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="pull-right" style="padding-right: 0px;">
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" id="profileDropdown"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="profile.png" alt="Profile" class="rounded-circle" width="40" height="40">
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="profileDropdown">
+                                    <a class="dropdown-item" href="#">My Profile</a>
+                                    <a class="dropdown-item" href="#">Settings</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Logout</a>
                                 </div>
-                            </li>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </nav>
+            </div>
+            <hr>
+
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -159,120 +109,189 @@
             </nav>
             <!-- <div class="line"></div> -->
 
-            <h2>Smith Vs Jones</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6" style="padding-left: 0;">
+                        <div>
+                            <h2>Smith Vs Jones</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="pull-right">
+                            <div style="margin-right: 0px;">
+                                <button class="btn custom-teal"
+                                    style="background-color: hsl(244deg 43.69% 40.39%); color: #fff;">Custom
+                                    Alert</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <br>
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Option 1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Option 2</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Option 3</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link ">Option 4</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link ">Option 5</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link ">Option 6</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link ">Option 7</a>
-                </li>
-            </ul>
+            <div>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: rgb(92, 89, 89);" aria-current="page"
+                            href="#">Overview</a>
+                    </li>&nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" style="background-color: #e8e4e4;color: rgb(92, 89, 89);"
+                            href="#">Billing</a>
+                    </li>&nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" style="background-color: #e8e4e4;color: rgb(92, 89, 89);"
+                            href="#">Invoices</a>
+                    </li>&nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link " style="background-color: #e8e4e4;color: rgb(92, 89, 89);">Calendar</a>
+                    </li>&nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link " style="background-color: #e8e4e4;color: rgb(92, 89, 89);">Documents</a>
+                    </li>&nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link " style="background-color: #e8e4e4;color: rgb(92, 89, 89);">Notes</a>
+                    </li>&nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link " style="background-color: #e8e4e4;color: rgb(92, 89, 89);">Transactions</a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <!--  -->
+
+            <!--  -->
+
+
+
+
+
+
+
+
+
+
 
             <div class="line"></div>
 
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
-                        <h2>Matter Information</h2>
-                        <div class="row">
+                        <br>
+                        <p style="font-size: 30px; color: black; margin-top: 0px; text-align: left; font-weight: 400;">
+                            Matter Information                                                   
+                        </p>
+                        <div class="row" style="text-align: left;">
                             <div class="col">
-                                <br>
-                                Name<br>
-                                Age
-                                <br><br>
-                                Fathers name<br>
-                                Mothers name
-                                <br><br>
-                                Education<br>
-                                University
-                                <br>
-
+                                <small>
+                                    Name<br>
+                                    Age
+                                    <br><br>
+                                    Fathers name<br>
+                                    Mothers name
+                                    <br><br>
+                                    Education<br>
+                                    University
+                                    <br>
+                                </small>
                             </div>
                             <div class="col">
-                                <br>
-                                Preeti Rajguru<br>
-                                22
-                                <br><br>
-                                Pradeep<br>
-                                Usha
-                                <br><br>
-                                MCA<br>
-                                Pune University
-                                <br>
+                                <small>
+                                    Preeti Rajguru<br>
+                                    22
+                                    <br><br>
+                                    Pradeep<br>
+                                    Usha
+                                    <br><br>
+                                    MCA<br>
+                                    Pune University
+                                    <br>
+                                </small>
                             </div>
 
-                            <div><br><br><br>
-                                <h2>Attorney Information</h2>
-                                This is some basic example information.
+                            <div><br><small>
+                                    <p
+                                        style="font-size: 30px; color: black; margin-top: 0px; text-align: left; font-weight: 400;">
+                                        Attorney Information
+                                    </p>
+                                    This is some basic example information.
+                                </small>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <h2>Client Information</h2>
-                        <br>
-                        Scientists' research has revealed that viruses are by far the most abundant life forms on Earth.
-                        There are a million times more viruses on the planet than stars in the universe. Viruses also
-                        harbor the majority of genetic diversity on Earth. Scientists are finding evidence of viruses as
-                        a planetary force, influencing the global climate and geochemical cycles. They have also
-                        profoundly shaped the evolution of their hosts. The human genome, for example, contains 100,000
-                        segments of virus DNA.
+                    <div class="col" style="text-align: left;"><br>
+                        <p style="font-size: 30px; color: black; margin-top: 0px; text-align: left; font-weight: 400;">
+                            Client Information
+                        </p>
+
+
+                        <div class="row" style="text-align: left;">
+                            <div class="col">
+                                <small>
+                                    Name<br>
+                                    Age
+                                    <br><br>
+                                    Fathers name<br>
+                                    Mothers name
+                                    <br><br>
+                                    Education<br>
+                                    University
+                                    <br>
+                                </small>
+                            </div>
+                            <div class="col">
+                                <small>
+                                    Preeti Rajguru<br>
+                                    22
+                                    <br><br>
+                                    Pradeep<br>
+                                    Usha
+                                    <br><br>
+                                    MCA<br>
+                                    Pune University
+                                    <br>
+                                </small>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="col">
-                        <h2>Matter Alerts</h2>
-                        <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-                            <symbol id="check-circle-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
-                            </symbol>
-                            <symbol id="info-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
-                            </symbol>
-                            <symbol id="exclamation-triangle-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                            </symbol>
-                        </svg>
+                    <div class="col"><br>
+                        <p style="font-size: 30px; color: black; margin-top: 0px; text-align: left; font-weight: 400;">
+                            Matter Alerts</p>
+                            <div class="text-right">
+                                <small style="padding-right: 0px;"><u>View all Results</u></small>
+                            </div>
+                        <div class="alert alert-danger d-flex align-items-center" role="alert">
+                            <i class="bi bi-exclamation-triangle"></i>&nbsp;&nbsp;&nbsp;
+                            <div>
+                                Caution Alert
+                            </div>
+                        </div>
                         <div class="alert alert-warning d-flex align-items-center" role="alert">
-                            <!-- <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Warning:">
-                                <use xlink:href="#exclamation-triangle-fill" />
-                            </svg> --><i class="bi bi-exclamation-triangle"></i>&nbsp;&nbsp;&nbsp;
+                            <i class="bi bi-exclamation-triangle"></i>&nbsp;&nbsp;&nbsp;
                             <div>
                                 Warning Alert
                             </div>
                         </div>
-                        <div class="alert alert-danger d-flex align-items-center" role="alert">
-                            <!-- <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Danger:">
-                                <use xlink:href="#exclamation-triangle-fill" />
-                            </svg> --><i class="bi bi-exclamation-triangle"></i>&nbsp;&nbsp;&nbsp;
-                            <div>
-                                Danger Alert
-                            </div>
+                        <div style="margin-right: 0px;">
+                            <button class="btn custom-teal"
+                                style="background-color: hsl(244deg 43.69% 40.39%); color: #fff;">Custom Alert</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="line"></div>
-
+        </div>
+    </div>
 </body>
 
 </html>
