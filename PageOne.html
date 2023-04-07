@@ -23,10 +23,9 @@
 
             <ul class="list-unstyled components">
                 <p><i class="bi bi-person-workspace"></i>&nbsp;&nbsp;&nbsp;Admin Settings</p>
-                <hr style="margin-top: 0px;">
+                <hr class="hr-top">
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
-                            class="bi bi-house"></i>&nbsp;&nbsp;Home</a>
+                    <a href="#homeSubmenu" class="dropdown-toggle"><i class="bi bi-house"></i>&nbsp;&nbsp;Home</a>
                 </li>
                 <li>
                     <a href="#"><i class="bi bi-info-circle-fill"></i>&nbsp;&nbsp;About</a>
@@ -45,9 +44,8 @@
 
             <ul class="list-unstyled CTAs">
                 <li>
-                    <p style="padding-top: 40px; padding-bottom: 0px; height: 45px; font-size:15px; margin-left: 23px;">
-                        Powered By</p>
-                    <p style=" margin-top: 0px; margin-left: 6px; font-size:30px;"><b>LEXICON</b></p>
+                    <p class="navbar-design">Powered By</p>
+                    <p class="navbar-name"><b>LEXICON</b></p>
                 </li>
             </ul>
         </nav>
@@ -57,19 +55,15 @@
                 <div class="row">
                     <div class="col-md-8">
                         <div class="input-group">
-                            <span class="input-group-text dropdown dropdown-toggle float-end"
-                                style="border-radius: 19px 0px 0px 19px; height: 38px; text-align: left; width: 70px;">All</span>
-
-                            <input type="text" class="form-control" style="background-color: #e9ecef61;">
-                            <!-- <input type="text" class="form-control"> -->
-                            <span class="input-group-text float-end"
-                                style="border-radius: 0px 19px 19px 0px;">Search</span>
+                            <button
+                                class="input-group-text dropdown dropdown-toggle float-end button-all-dropdown">All</button>
+                            <input type="text" class="form-control search-color">
+                            <button class="input-group-text float-end button-search">Search</button>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="float-end">
-                            <button type="button" class="btn btn-primary shadow-lg p-1 mb-2 bg-white rounded"
-                                style="background-color: hsl(240, 5%, 88%); color:black; border-color: #09090981;">
+                            <button type="button" class="btn btn-primary shadow-lg p-1 mb-2 bg-white rounded log-time">
                                 <i class="bi bi-clock"></i> Log Time
                             </button>&nbsp;&nbsp;
                             <label>
@@ -78,7 +72,7 @@
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="pull-right" style="padding-right: 0px;">
+                        <div class="pull-right">
                             <div class="dropdown">
                                 <a class="dropdown-toggle" href="#" role="button" id="profileDropdown"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -93,7 +87,7 @@
             <hr>
 
             <nav aria-label="breadcrumb">
-                <ol class="breadcrumb" style="font-size: 15px;">
+                <ol class="breadcrumb breadcrumb-size">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Library</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Data</li>
@@ -101,14 +95,13 @@
                     <li class="breadcrumb-item"><a href="#">Docs</a></li>
                 </ol>
             </nav>
-            <!-- <div class="line"></div> -->
 
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6" style="padding-left: 0;">
                         <div>
                             <h2>Smith Vs Jones</h2>
-                            <p style="font-size: 12px; color: black;">
+                            <p class="additional-options">
                                 <i class="bi bi-check2"></i>&nbsp;Active &nbsp;&nbsp;
                                 <i class="bi bi-bar-chart"></i>&nbsp;Progress &nbsp;&nbsp;
                                 <i class="bi bi-bookmark-fill"></i>&nbsp;Bookmark
@@ -118,14 +111,8 @@
                     </div>
                     <div class="col-md-6">
                         <div class="pull-right">
-                            <!-- <div>
-                                <button class="btn custom-teal float-end"
-                                    style="background-color: hsl(244deg 43.69% 40.39%); color: #fff;">Custom
-                                    Button</button>
-                            </div> -->
                             <div class="dropdown float-end">
-                                <button class="dropdown-toggle" href="#" role="button"
-                                    style="border-radius: 6px; height: 33px; text-align: left; width: 150px; background-color: hsl(244deg 43.69% 40.39%); color: #fff; border-color: #e8e4e400;">
+                                <button class="dropdown-toggle more-actions" href="#" role="button">
                                     More Actions
                                 </button>
                             </div>
@@ -135,30 +122,29 @@
             </div>
             <br>
             <div>
-                <ul class="nav nav-tabs">
+                <ul class="nav nav-tabs detail-tab">
                     <li class="nav-item">
-                        <a class="nav-link active" style="color: rgb(92, 89, 89);" aria-current="page"
-                            href="#">Overview</a>
+                        <a class="nav-link active" aria-current="page" href="#">Overview</a>
                     </li>&nbsp;
                     <li class="nav-item">
-                        <a class="nav-link" style="background-color: #e8e4e4;color: rgb(92, 89, 89);"
+                        <a class="nav-link custom-button" 
                             href="#">Billing</a>
                     </li>&nbsp;
                     <li class="nav-item">
-                        <a class="nav-link" style="background-color: #e8e4e4;color: rgb(92, 89, 89);"
+                        <a class="nav-link"
                             href="#">Invoices</a>
                     </li>&nbsp;
                     <li class="nav-item">
-                        <a class="nav-link " style="background-color: #e8e4e4;color: rgb(92, 89, 89);">Calendar</a>
+                        <a class="nav-link " >Calendar</a>
                     </li>&nbsp;
                     <li class="nav-item">
-                        <a class="nav-link " style="background-color: #e8e4e4;color: rgb(92, 89, 89);">Documents</a>
+                        <a class="nav-link " >Documents</a>
                     </li>&nbsp;
                     <li class="nav-item">
-                        <a class="nav-link " style="background-color: #e8e4e4;color: rgb(92, 89, 89);">Notes</a>
+                        <a class="nav-link ">Notes</a>
                     </li>&nbsp;
                     <li class="nav-item">
-                        <a class="nav-link " style="background-color: #e8e4e4;color: rgb(92, 89, 89);">Transactions</a>
+                        <a class="nav-link " >Transactions</a>
                     </li>
                 </ul>
             </div>
@@ -169,10 +155,10 @@
                 <div class="row">
                     <div class="col-md-4">
                         <br>
-                        <p style="font-size: 30px; color: black; margin-top: 0px; text-align: left; font-weight: 400;">
+                        <p class="titles">
                             Matter Information
                         </p>
-                        <div class="row" style="text-align: left;">
+                        <div class="row" class="left-alignment">
                             <div class="col-md-6">
                                 <small>
                                     Name<br>
@@ -201,11 +187,10 @@
                             </div>
 
                             <div><br><small>
-                                    <p
-                                        style="font-size: 30px; color: black; margin-top: 0px; text-align: left; font-weight: 400;">
+                                    <p class="titles">
                                         Attorney Information
                                     </p>
-                                    <div class="row" style="text-align: left;">
+                                    <div class="row" class="left-alignment">
                                         <div class="col-md-6">
 
                                             Name<br>
@@ -237,13 +222,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4" style="text-align: left;"><br>
-                        <p style="font-size: 30px; color: black; margin-top: 0px; text-align: left; font-weight: 400;">
+                    <div class="col-md-4" class="left-alignment"><br>
+                        <p class="titles">
                             Client Information
                         </p>
 
 
-                        <div class="row" style="text-align: left;">
+                        <div class="row" class="left-alignment">
                             <div class="col-md-6">
                                 <small>
                                     Name<br>
@@ -274,7 +259,7 @@
 
                     </div>
                     <div class="col-md-4"><br>
-                        <p style="font-size: 30px; color: black; margin-top: 0px; text-align: left; font-weight: 400;">
+                        <p class="small-message">
                             Matter Alerts
                             <small class="float-end" style="font-size: 12px;"><u>View all Results</u></small>
                         </p>
@@ -297,45 +282,17 @@
                                     </div>
                                 </div>
                                 <div style="margin-right: 0px;">
-                                    <button class="btn custom-teal float-end"
-                                        style="border-radius: 6px; height: 32px; text-align: left; width: 130px;  background-color: hsl(244deg 43.69% 40.39%); color: #fff; border-color: #e8e4e400;">Custom
-                                        Alert</button>
+                                    <button class="btn custom-teal float-end alert-button">Custom Alert</button>
+                                </div>
+                                <div class="float-end">
+                                    <div class="btn-group float-end last-button" role="group">
+                                        <button type="button" class="btn last-button">Unread</button>
+                                        <button type="button" class="btn last-button">Chats</button>
+                                        <button type="button" class="btn last-button">Seen</button>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row float-end">
-                                <button class="btn custom-teal float-end"
-                                    style="border-radius: 6px; height: 32px; bottom: 0; width: 130px;  background-color: hsl(244deg 43.69% 40.39%); color: #fff; border-color: #e8e4e400;">More
-                                    Options</button>
-                            </div>
                         </div>
-
-
-
-
-
-
-
-
-
-
-
-                        <!-- <div class="alert alert-danger d-flex align-items-center" role="alert">
-                            <i class="bi bi-exclamation-triangle"></i>&nbsp;&nbsp;&nbsp;
-                            <div>
-                                Caution Alert
-                            </div>
-                        </div>
-                        <div class="alert alert-warning d-flex align-items-center" role="alert">
-                            <i class="bi bi-exclamation-triangle"></i>&nbsp;&nbsp;&nbsp;
-                            <div>
-                                Warning Alert
-                            </div>
-                        </div>
-                        <div style="margin-right: 0px;">
-                            <button class="btn custom-teal float-end"
-                                style="border-radius: 6px; height: 32px; text-align: left; width: 130px;  background-color: hsl(244deg 43.69% 40.39%); color: #fff; border-color: #e8e4e400;">Custom
-                                Alert</button>
-                        </div> -->
                     </div>
                 </div>
             </div>
